@@ -1,0 +1,60 @@
+body {
+  font-size:20px;
+  text-align:center;
+}
+#wrapper {
+  width:90%;
+  margin:5%;
+}
+#logo {
+  font-size:35px;
+  margin-bottom:5px;
+  padding:40px;
+  height:5%;
+  background:#5F9EA0
+}
+#konten {
+  font-size:28px;
+  margin-bottom:5px;
+  height:60%;
+  float:left;
+  width:28%;
+  background-color:#FFE4C4;
+}
+#konten h2 {
+  font-family: "Open Sans Condensed", Arial, sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  background: #B8860B;
+  color: #373C41;
+  font-size: 20px;
+  padding: 10px;
+  margin: 0 0 0 0;
+}
+#kanan {
+  margin-left:5px;
+  margin-bottom:5px;
+  height:30%;
+  float:right;
+  width:35%;
+  background-color:#F0F8FF;
+}
+#kanan h2 {
+  font-weight: 300;
+  color: #ffffff;
+  text-transform: none;
+  background-color: rgb(235, 101, 37);
+  border: 0;
+  padding: 20px;
+  font-size: 20px;
+  margin: 0;
+}
+#bawah{
+  margin-top:5px;
+  clear:both;
+  padding:15px;
+  height:5%;
+  background-color:#8B4513;
+  font-size:50px;
+  color:#fff;
+}
