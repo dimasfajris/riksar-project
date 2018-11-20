@@ -1,18 +1,111 @@
 <html>
   <head>
-    <title> Beta Vesion </title>
+    <title> Riksar 1.0 </title>
     <link rel="stylesheet" type="text/css" href="layout.css">
+    <link rel="stylesheet" type="text/css" href="tabel.css">
+    <link rel="stylesheet" type="text/css" href="menu.css">
   </head>
   <body>
-    <div id="wrapper" >
-      <div id="logo">MEDIA INFORMASI VERBASAR</div>
-      <div id="konten"><h2 class="konten">Prioritas Kerjaan</h2></div>
-      <div id="kanan"><h2 class="kanan">PENGIRIMAN KE BI</h2> </div>
-      <div id="kanan"><h2 class="kanan">PENCAPAIAN</h2></div>
-      <div id="kanan"><h2 class="kanan">JENIS-JENIS KERUSAKAN</h2></div>
-      <div id="kanan"><h2 class="kanan">INPUT PERMINGGU</h2></div>
-      <div id="bawah"> <marquee>PENGUMUMAN LEMBUR HARI SABTU DARI JAM 06.00 SAMPAI JAM 18.00, HARI MINGGU DARI JAM 06.00 SAMPAI JAM 16.00</marquee> </div>
+    <div id="outer-wrapper" >
+      <div id="header-wrapper"><b>MEDIA INFORMASI VERBASAR</b></div>
+      <div id="header-wrapper2">
+                <script type='text/javascript'>
+                        var months = ['JANUARI', 'FEBRUARI', 'MARET', 'APRIL', 'MEI', 'JUNI', 'JULI', 'AGUSTUS', 'SEPTEMBER', 'OKTOBER', 'NOVEMBER', 'DESEMBER'];
+                        var myDays = ['MINGGU', 'SENIN', 'SELASA', 'RABU', 'KAMIS', 'JUM&#39;AT', 'SABTU'];
+                        var date = new Date();
+                        var day = date.getDate();
+                        var month = date.getMonth();
+                        var thisDay = date.getDay(),
+                            thisDay = myDays[thisDay];
+                        var yy = date.getYear();
+                        var year = (yy < 1000) ? yy + 1900 : yy;
+                            document.write(thisDay + ', ' + day + ' ' + months[month] + ' ' + year);
+                      </script></div>
+
+
+      <div id="sidebar-wrapper">
+        <button onclick="document.getElementById('myImage1').src='t.jpg'">ON</button>
+        <button onclick="document.getElementById('myImage1').src='y.jpg'">OFF</button>
+        <img id="myImage1" src="t.jpg" style="width:250px"><br />
+        <button onclick="document.getElementById('myImage2').src='t.jpg'">ON</button>
+        <button onclick="document.getElementById('myImage2').src='y.jpg'">OFF</button>
+        <img id="myImage2" src="t.jpg" style="width:250px"><br />
+        <button onclick="document.getElementById('myImage3').src='t.jpg'">ON</button>
+        <button onclick="document.getElementById('myImage3').src='y.jpg'">OFF</button>
+        <img id="myImage3" src="t.jpg" style="width:250px"><br />
+        <button onclick="document.getElementById('myImage4').src='t.jpg'">ON</button>
+        <button onclick="document.getElementById('myImage4').src='y.jpg'">OFF</button>
+        <img id="myImage4" src="t.jpg" style="width:250px"><br />
+      </div>
+      <div id="sidebar-wrapper2">
+        <button onclick="document.getElementById('myImage6').src='t.jpg'">ON</button>
+        <button onclick="document.getElementById('myImage6').src='y.jpg'">OFF</button>
+        <img id="myImage6" src="t.jpg" style="width:250px"><br />
+        <button onclick="document.getElementById('myImage7').src='t.jpg'">ON</button>
+        <button onclick="document.getElementById('myImage7').src='y.jpg'">OFF</button>
+        <img id="myImage7" src="t.jpg" style="width:250px"><br />
+        <button onclick="document.getElementById('myImage8').src='t.jpg'">ON</button>
+        <button onclick="document.getElementById('myImage8').src='y.jpg'">OFF</button>
+        <img id="myImage8" src="t.jpg" style="width:250px"><br />
+        <button onclick="document.getElementById('myImage9').src='t.jpg'">ON</button>
+        <button onclick="document.getElementById('myImage9').src='y.jpg'">OFF</button>
+        <img id="myImage9" src="t.jpg" style="width:250px"><br />
+      </div>
+
+
+      <div id="main-wrapper"><h2 class="main-wrapper">PENGIRIMAN KE BI</h2>
+        <p class="per"><u>75%</u></p>
+        <p class="dar">60000 / 800000</p>
+
+      </div>
+      <div id="main-wrapper"><h2 class="main-wrapper">PENCAPAIAN</h2>
+        <p class="per"><u>55%</u></p>
+        <p class="dar">50000 / 800000</p>
+      </div>
+      <div id="main-wrapper"><h2 class="main-wrapper">KOSONG</h2></div>
+      <div id="main-wrapper"><h2 class="main-wrapper">KOSONG</h2></div>
+
+      <div id="footer-wrapper"><marquee>LEMBUR : SENIN-KAMIS = AWAL & AKHIR, JUMAT = AWAL, SABTU = 06.00-18.00, MINGGU = 06.00-16.00</marquee></div>
+      <div id="footer-wrapper2">
+        <div id="clock"></div>
+        <script type="text/javascript">
+          function showTime() {
+            var a_p = "";
+            var today = new Date();
+            var curr_hour = today.getHours();
+            var curr_minute = today.getMinutes();
+            var curr_second = today.getSeconds();
+            if (curr_hour < 12) {
+                a_p = "AM";
+              } else {
+                a_p = "PM";
+              }
+            if (curr_hour == 0) {
+              curr_hour = 12;
+              }
+            if (curr_hour > 12) {
+              curr_hour = curr_hour - 12;
+              }
+              curr_hour = checkTime(curr_hour);
+              curr_minute = checkTime(curr_minute);
+              curr_second = checkTime(curr_second);
+              document.getElementById('clock').innerHTML=curr_hour + ":" + curr_minute + ":" + curr_second + " " + a_p;
+            }
+
+          function checkTime(i) {
+            if (i < 10) {
+              i = "0" + i;
+            }
+          return i;
+            }
+            setInterval(showTime, 500);
+      </script>
+
+
     </div>
+    </div>
+
+
 
   </body>
 </html>
