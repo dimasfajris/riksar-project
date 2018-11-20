@@ -1,27 +1,57 @@
 body {
   font-size:20px;
-  text-align:center;
+  text-align:Left;
 }
-#wrapper {
-  width:90%;
-  margin:5%;
+#outer-wrapper {
+  width:2100px;
+  float:center;
+  margin:10px;
 }
-#logo {
-  font-size:35px;
+#header-wrapper {
+  padding-bottom:20px;
+  padding-top:20px;
   margin-bottom:5px;
-  padding:40px;
-  height:5%;
-  background:#5F9EA0
+  color:#FFF;
+  background:#1995AD;
+  float:left;
+  width:2100px;
+  text-align: center;
+  font-size: 70px;
 }
-#konten {
+
+#header-wrapper2 {
+  margin-bottom:5px;
+  text-align: center;
+  font-size: 40px;
+  width: 2100px;
+  background:#F0F8FF;
+  color:#000;
+  float:left;
+
+}
+#sidebar-wrapper {
   font-size:28px;
   margin-bottom:5px;
-  height:60%;
+  height:900px;
   float:left;
-  width:28%;
-  background-color:#FFE4C4;
+  width:280px;
+  background:#F0F8FF;
+  text-align: center;
 }
-#konten h2 {
+
+#sidebar-wrapper2 {
+  font-size:28px;
+  margin-bottom:5px;
+  margin-left: 10px;
+  height:900px;
+  float:left;
+  width:280px;
+  border-color: red;
+  background-color:#F0F8FF;
+  text-align: center;
+}
+
+#sidebar-wrapper h2 {
   font-family: "Open Sans Condensed", Arial, sans-serif;
   font-weight: normal;
   text-transform: uppercase;
@@ -30,31 +60,62 @@ body {
   font-size: 20px;
   padding: 10px;
   margin: 0 0 0 0;
+  text-align:center;
 }
-#kanan {
-  margin-left:5px;
-  margin-bottom:5px;
-  height:30%;
+#main-wrapper {
+  margin-left:60px;
+  margin-bottom:20px;
+  height:430px;
+  margin-right: 5px;
   float:right;
-  width:35%;
+  width:700px;
+  text-align: center;
   background-color:#F0F8FF;
 }
-#kanan h2 {
+#main-wrapper h2 {
+  text-align:center;
   font-weight: 300;
   color: #ffffff;
   text-transform: none;
-  background-color: rgb(235, 101, 37);
+  background-color: #1995AD;
   border: 0;
   padding: 20px;
-  font-size: 20px;
-  margin: 0;
+  font-size: 40px;
+  margin-left:-40px;
 }
-#bawah{
-  margin-top:5px;
-  clear:both;
-  padding:15px;
-  height:5%;
-  background-color:#8B4513;
-  font-size:50px;
-  color:#fff;
+#footer-wrapper {
+  margin-bottom:5px;
+  padding-bottom: 50px;
+  padding-right: 10px;
+  height:1%;
+  background:#A1D6E2;
+  float:left;
+  width:85%;
+  font-size: 50px;
+}
+
+#footer-wrapper2 {
+  margin-bottom:5px;
+  padding-right: 5px;
+  padding-bottom: 50px;
+  width:14%;
+  height:1%;
+  background:#1995AD;
+  float:left;
+  color:#f1f1f2;
+  text-align: right;
+  font-size: 50px;
+}
+
+.per {
+  margin-top:-90px;
+  margin-bottom: -50px;
+  font-size: 280px;
+}
+
+.dar {
+  margin-top:-1px;
+  margin-bottom: -30px;
+  padding-top:20px;
+  font-size: 70px;
 }
