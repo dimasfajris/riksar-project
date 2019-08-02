@@ -17,6 +17,7 @@
           <li><a href="home.php">HOME</a></li>
           <li><a href="input.php">INPUT TARGET</a></li>
           <li><a href="berita.php">INPUT BERITA</a></li>
+	  <li><a href="lapod.php">LAPORAN PRODUKSI</a></li>
           <li style="float:right"><a class="active" href="#">
             <script type='text/javascript'>
               var months = ['JANUARI', 'FEBRUARI', 'MARET', 'APRIL', 'MEI', 'JUNI', 'JULI', 'AGUSTUS', 'SEPTEMBER', 'OKTOBER', 'NOVEMBER', 'DESEMBER'];

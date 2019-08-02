@@ -99,6 +99,25 @@
     		});
     	</script>
     </div>
+	
+	      <div id="header-wrapper2" style="margin-top:50px;font-size:85%;text-align:center;">
+        <ul>
+          <li><a href="home.php">KELOMPOK 1</a></li>
+		  <li><a href="home.php">KELOMPOK 2</a></li>
+		  <li><a href="home.php">KELOMPOK 3</a></li>
+		  <li><a href="home.php">KELOMPOK 4</a></li>
+		  <li><a href="home.php">KELOMPOK 5</a></li>
+		  <li><a href="home.php">KELOMPOK 6</a></li>
+		  <li><a href="home.php">KELOMPOK 7</a></li>
+		  <li><a href="home.php">KELOMPOK 8</a></li>
+		  <li><a href="home.php">KELOMPOK 9</a></li>
+		  <li><a href="home.php">KELOMPOK 10</a></li>
+		  <li><a href="home.php">KELOMPOK 11</a></li>
+		  <li><a href="home.php">KELOMPOK 12</a></li>
+		  <li><a href="home.php">KELOMPOK 13</a></li>
+		  </li>
+        </ul>
+      </div>
     </div>
 
 
