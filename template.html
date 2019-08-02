@@ -1,73 +1,30 @@
 <html>
   <head>
     <title> Riksar 1.0 </title>
-    <link rel="stylesheet" type="text/css" href="layout.css">
-    <link rel="stylesheet" type="text/css" href="tabel.css">
-    <link rel="stylesheet" type="text/css" href="menu.css">
+    <link rel="stylesheet" type="text/css" href="css/layout.css">
+    <link rel="stylesheet" type="text/css" href="css/menus.css">
   </head>
   <body>
-    <div id="outer-wrapper" >
-      <div id="header-wrapper"><b>MEDIA INFORMASI VERBASAR</b></div>
-      <div id="header-wrapper2">
-                <script type='text/javascript'>
-                        var months = ['JANUARI', 'FEBRUARI', 'MARET', 'APRIL', 'MEI', 'JUNI', 'JULI', 'AGUSTUS', 'SEPTEMBER', 'OKTOBER', 'NOVEMBER', 'DESEMBER'];
-                        var myDays = ['MINGGU', 'SENIN', 'SELASA', 'RABU', 'KAMIS', 'JUM&#39;AT', 'SABTU'];
-                        var date = new Date();
-                        var day = date.getDate();
-                        var month = date.getMonth();
-                        var thisDay = date.getDay(),
-                            thisDay = myDays[thisDay];
-                        var yy = date.getYear();
-                        var year = (yy < 1000) ? yy + 1900 : yy;
-                            document.write(thisDay + ', ' + day + ' ' + months[month] + ' ' + year);
-                      </script></div>
-
-
-      <div id="sidebar-wrapper">
-        <button onclick="document.getElementById('myImage1').src='t.jpg'">ON</button>
-        <button onclick="document.getElementById('myImage1').src='y.jpg'">OFF</button>
-        <img id="myImage1" src="t.jpg" style="width:250px"><br />
-        <button onclick="document.getElementById('myImage2').src='t.jpg'">ON</button>
-        <button onclick="document.getElementById('myImage2').src='y.jpg'">OFF</button>
-        <img id="myImage2" src="t.jpg" style="width:250px"><br />
-        <button onclick="document.getElementById('myImage3').src='t.jpg'">ON</button>
-        <button onclick="document.getElementById('myImage3').src='y.jpg'">OFF</button>
-        <img id="myImage3" src="t.jpg" style="width:250px"><br />
-        <button onclick="document.getElementById('myImage4').src='t.jpg'">ON</button>
-        <button onclick="document.getElementById('myImage4').src='y.jpg'">OFF</button>
-        <img id="myImage4" src="t.jpg" style="width:250px"><br />
+    <div id="menus" >
+      <div id="menu"><b>RIKSAR 1.0</b><img src="image/header2.png" style="margin-bottom:-10px;margin-left:500px;width:50px;height:50px;">
       </div>
-      <div id="sidebar-wrapper2">
-        <button onclick="document.getElementById('myImage6').src='t.jpg'">ON</button>
-        <button onclick="document.getElementById('myImage6').src='y.jpg'">OFF</button>
-        <img id="myImage6" src="t.jpg" style="width:250px"><br />
-        <button onclick="document.getElementById('myImage7').src='t.jpg'">ON</button>
-        <button onclick="document.getElementById('myImage7').src='y.jpg'">OFF</button>
-        <img id="myImage7" src="t.jpg" style="width:250px"><br />
-        <button onclick="document.getElementById('myImage8').src='t.jpg'">ON</button>
-        <button onclick="document.getElementById('myImage8').src='y.jpg'">OFF</button>
-        <img id="myImage8" src="t.jpg" style="width:250px"><br />
-        <button onclick="document.getElementById('myImage9').src='t.jpg'">ON</button>
-        <button onclick="document.getElementById('myImage9').src='y.jpg'">OFF</button>
-        <img id="myImage9" src="t.jpg" style="width:250px"><br />
-      </div>
-
-
-      <div id="main-wrapper"><h2 class="main-wrapper">PENGIRIMAN KE BI</h2>
-        <p class="per"><u>75%</u></p>
-        <p class="dar">60000 / 800000</p>
-
-      </div>
-      <div id="main-wrapper"><h2 class="main-wrapper">PENCAPAIAN</h2>
-        <p class="per"><u>55%</u></p>
-        <p class="dar">50000 / 800000</p>
-      </div>
-      <div id="main-wrapper"><h2 class="main-wrapper">KOSONG</h2></div>
-      <div id="main-wrapper"><h2 class="main-wrapper">KOSONG</h2></div>
-
-      <div id="footer-wrapper"><marquee>LEMBUR : SENIN-KAMIS = AWAL & AKHIR, JUMAT = AWAL, SABTU = 06.00-18.00, MINGGU = 06.00-16.00</marquee></div>
-      <div id="footer-wrapper2">
-        <div id="clock"></div>
+      <div id="menu2">
+        <ul>
+          <li><a>
+          <script type='text/javascript'>
+            var months = ['JANUARI', 'FEBRUARI', 'MARET', 'APRIL', 'MEI', 'JUNI', 'JULI', 'AGUSTUS', 'SEPTEMBER', 'OKTOBER', 'NOVEMBER', 'DESEMBER'];
+            var myDays = ['MINGGU', 'SENIN', 'SELASA', 'RABU', 'KAMIS', 'JUM&#39;AT', 'SABTU'];
+            var date = new Date();
+            var day = date.getDate();
+            var month = date.getMonth();
+            var thisDay = date.getDay(),
+                thisDay = myDays[thisDay];
+            var yy = date.getYear();
+            var year = (yy < 1000) ? yy + 1900 : yy;
+                document.write(thisDay + ', ' + day + ' ' + months[month] + ' ' + year);
+          </script></a></li>
+          <li style="float:right"><a class="active" href="#">
+              <div id="clock"></div>
         <script type="text/javascript">
           function showTime() {
             var a_p = "";
@@ -100,12 +57,63 @@
             }
             setInterval(showTime, 500);
       </script>
+            </a>
+          </li>
+        </ul>
+      </div>
 
+      <div id="menu3">
+          <div class="container">
+              <img src="image/mhome.png" alt="Avatar" class="image" style="border-radius: 15px 50px;">
+              <div class="middle">
+                <div class="text"><a href="http://localhost/priksar/home.php">Home</a></div>
+              </div>
+          </div>
+      </div>
 
+      <div id="menu3">
+          <div class="container">
+              <img src="image/minput.png" alt="Avatar" class="image" style="border-radius: 15px 50px;">
+              <a href="http://localhost/priksar/input.php">
+                <div class="middle">
+                  <div class="text">Input Target</div>
+                </div>
+              </a>
+          </div>
+      </div>
+      
+      <div id="menu3">
+          <div class="container">
+              <img src="image/mberita.png" alt="Avatar" class="image" style="border-radius: 15px 50px;">
+              <a href="http://localhost/priksar/berita.php">
+                <div class="middle">
+                <div class="text">Input Berita</div>
+                </div>
+              </a>
+          </div>
+      </div>
+      
+      <div id="menu4"><img src="image/header3.png" style="margin:10px;height:50px"></div>
     </div>
     </div>
 
+<button id="goFS">Go fullscreen</button>
+<script>
+function toggleFullScreen() {
+  var doc = window.document;
+  var docEl = doc.documentElement;
 
+  var requestFullScreen = docEl.requestFullscreen || docEl.mozRequestFullScreen || docEl.webkitRequestFullScreen || docEl.msRequestFullscreen;
+  var cancelFullScreen = doc.exitFullscreen || doc.mozCancelFullScreen || doc.webkitExitFullscreen || doc.msExitFullscreen;
+
+  if(!doc.fullscreenElement && !doc.mozFullScreenElement && !doc.webkitFullscreenElement && !doc.msFullscreenElement) {
+    requestFullScreen.call(docEl);
+  }
+  else {
+    cancelFullScreen.call(doc);
+  }
+}
+</script>
 
   </body>
 </html>
