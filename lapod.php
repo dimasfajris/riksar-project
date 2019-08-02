@@ -53,7 +53,7 @@
     				labels: ["Kelompok 1", "Kelompok 2", "Kelompok 3", "Kelompok 4", "Kelompok 5", "Kelompok 6", "Kelompok 7", "Kelompok 8", "Kelompok 9", "Kelompok 10", "Kelompok 11", "Kelompok 12", "Kelompok 13"],
     				datasets: [{
     					label: '# Total Produksi',
-    					data: [3,2,3,4,5,6,7,8,9,10,11,12,13],
+    					data: [300,222,30,44,15,116,117,118,19,210,211,412,113],
     					backgroundColor: [
     					'red',
     					'blue',
