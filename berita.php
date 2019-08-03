@@ -13,9 +13,11 @@
       </div>
       <div id="header-wrapper2">
         <ul>
-          <li><a href="home.php">HOME</a></li>
+          <li><a href="index.html">BERANDA</a></li>
           <li><a href="input.php">INPUT TARGET</a></li>
           <li><a href="berita.php">INPUT BERITA</a></li>
+	        <li><a href="laprod.php">LAPORAN PRODUKSI</a></li>
+          <li><a href="tolker.php">TOLERANSI KERUSAKAN</a></li>
           <li style="float:right"><a class="active" href="#about">
             <script type='text/javascript'>
               var months = ['JANUARI', 'FEBRUARI', 'MARET', 'APRIL', 'MEI', 'JUNI', 'JULI', 'AGUSTUS', 'SEPTEMBER', 'OKTOBER', 'NOVEMBER', 'DESEMBER'];
@@ -32,7 +34,7 @@
           </li>
         </ul>
       </div>
-      <?php                    
+      <?php
         $query = mysqli_query ($conn, "SELECT * FROM target ORDER BY id DESC limit 1");
         $row_query = mysqli_fetch_array($query);
       ?>

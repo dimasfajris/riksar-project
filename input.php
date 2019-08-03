@@ -13,9 +13,11 @@
       </div>
       <div id="header-wrapper2">
         <ul>
-          <li><a href="home.php">HOME</a></li>
+          <li><a href="index.html">BERANDA</a></li>
           <li><a href="input.php">INPUT TARGET</a></li>
           <li><a href="berita.php">INPUT BERITA</a></li>
+	        <li><a href="laprod.php">LAPORAN PRODUKSI</a></li>
+          <li><a href="tolker.php">TOLERANSI KERUSAKAN</a></li>
           <li style="float:right"><a class="active" href="#about">
             <script type='text/javascript'>
               var months = ['JANUARI', 'FEBRUARI', 'MARET', 'APRIL', 'MEI', 'JUNI', 'JULI', 'AGUSTUS', 'SEPTEMBER', 'OKTOBER', 'NOVEMBER', 'DESEMBER'];
@@ -32,7 +34,7 @@
           </li>
         </ul>
       </div>
-      <?php                    
+      <?php
         $query = mysqli_query ($conn, "SELECT * FROM target ORDER BY id DESC limit 1");
         $row_query = mysqli_fetch_array($query);
       ?>
@@ -40,12 +42,12 @@
 	      <form action="save.php" method="POST" style="margin:50px;">
                 Ubah Target Pengiriman : <br><input type="text" name="ukirim" value="<?php echo $row_query['ukirim']; ?>">
                 <br>
-                Ubah Target Pertahun : <br><input type="text" name="utahun" value="<?php echo $row_query['utahun']; ?>"> 
+                Ubah Target Pertahun : <br><input type="text" name="utahun" value="<?php echo $row_query['utahun']; ?>">
                 <br>
                 Ubah Target Perbulan : <br><input type="text" name="ubulan" value="<?php echo $row_query['ubulan']; ?>">
                 <br>
 		*Peringatan! Kolom diatas hanya untuk penggantian target saja. Jika ingin input silahkan isi dibagian bawah.
-		<br><br><br><br><p> 
+		<br><br><br><br><p>
                 Input Target Pengiriman : <br><input type="text" name="ikirim" value="<?php echo $row_query['ikirim']; ?>"> <?php echo $row_query['ikirim']; ?>
                 <br>
                 Input Target Pertahun : <br><input type="text" name="itahun" value="<?php echo $row_query['itahun']; ?>"> <?php echo $row_query['itahun']; ?>
@@ -54,7 +56,7 @@
                 <br>
                 <input type="submit" value="Save"> <input type="reset" value="Reset">
               </form>
-              
+
       </div>
 
         <?php
