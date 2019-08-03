@@ -18,6 +18,7 @@
           <li><a href="input.php">INPUT TARGET</a></li>
           <li><a href="berita.php">INPUT BERITA</a></li>
 	        <li><a href="laprod.php">LAPORAN PRODUKSI</a></li>
+          <li><a href="inputlaprod.php">INPUT PRODUKSI</a></li>
           <li><a href="tolker.php">TOLERANSI KERUSAKAN</a></li>
           <li style="float:right"><a class="active" href="#">
             <script type='text/javascript'>
