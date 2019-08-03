@@ -130,15 +130,15 @@
           <th colspan="31">Tanggal</th>
         </tr>
         <tr>
-          <td>01</td>
-          <td>02</td>
-          <td>03</td>
-          <td>04</td>
-          <td>05</td>
-          <td>06</td>
-          <td>07</td>
-          <td>08</td>
-          <td>09</td>
+          <td>1</td>
+          <td>2</td>
+          <td>3</td>
+          <td>4</td>
+          <td>5</td>
+          <td>6</td>
+          <td>7</td>
+          <td>8</td>
+          <td>9</td>
           <td>10</td>
           <td>11</td>
           <td>12</td>
@@ -513,6 +513,8 @@
           <th><input type="number" style="width:30px;"></th>
         </tr>
       </table>
+      <input type="submit" value="Save"> <input type="reset" value="Reset">
+    </form>
 
     </div>
 
