@@ -7,6 +7,16 @@
     <title> Riksar 1.0 </title>
     <link href="css/layout.css?v=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
           <script type="text/javascript" src="Chart.js"></script>
+          <style>
+            table, th, td {
+              border: 1px solid white;
+              border-collapse: collapse;
+            }
+            th, td {
+              padding: 5px;
+              text-align: center;
+            }
+          </style>
   </head>
   <body>
     <div id="outer-wrapper" >
@@ -93,34 +103,416 @@
       </style>
 
       <div class="dropdown">
-        <button class="dropbtn">Dropdown</button>
+        <button class="dropbtn">Pilih Kelompok</button>
         <div class="dropdown-content">
-          <a href="#">Link 1</a>
-          <a href="#">Link 2</a>
-          <a href="#">Link 3</a>
+          <a href="#">Kelompok 1</a>
+          <a href="#">Kelompok 2</a>
+          <a href="#">Kelompok 3</a>
+          <a href="#">Kelompok 4</a>
+          <a href="#">Kelompok 5</a>
+          <a href="#">Kelompok 6</a>
+          <a href="#">Kelompok 7</a>
+          <a href="#">Kelompok 8</a>
+          <a href="#">Kelompok 9</a>
+          <a href="#">Kelompok 10</a>
+          <a href="#">Kelompok 11</a>
+          <a href="#">Kelompok 12</a>
+          <a href="#">Kelompok 13</a>
         </div>
       </div>
 
-      <form action="contact.php" method="POST">
-          <fieldset>
-          <legend>Form</legend>
-          <p>
-              <label>Tanggal :</label>
-              <input type="date" name="tanggal" />
-          </p>
-          <p>
-              <label>jumlah blanko:</label>
-              <input type="number" min="10" max="90" name="umur" />
-          </p>
-          <p>
-              <label>jumlah seri:</label>
-              <input type="number" min="10" max="90" name="umur" />
-          </p>
-          <p>
-              <input type="submit" name="submit" value="Send" />
-          </p>
-          </fieldset>
-      </form>
+      <form>
+      <table style="width:100%;">
+        <tr>
+          <tr>
+          <th rowspan="2">Nama Pegawai</th>
+          <th rowspan="2">NP</th>
+          <th colspan="31">Tanggal</th>
+        </tr>
+        <tr>
+          <td>01</td>
+          <td>02</td>
+          <td>03</td>
+          <td>04</td>
+          <td>05</td>
+          <td>06</td>
+          <td>07</td>
+          <td>08</td>
+          <td>09</td>
+          <td>10</td>
+          <td>11</td>
+          <td>12</td>
+          <td>13</td>
+          <td>14</td>
+          <td>15</td>
+          <td>16</td>
+          <td>17</td>
+          <td>18</td>
+          <td>19</td>
+          <td>20</td>
+          <td>11</td>
+          <td>22</td>
+          <td>23</td>
+          <td>24</td>
+          <td>25</td>
+          <td>26</td>
+          <td>27</td>
+          <td>28</td>
+          <td>29</td>
+          <td>30</td>
+          <td>30</td>
+        </tr>
+        <tr>
+          <th>ujang 1</th>
+          <th><input type="text" style="width:50px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+        </tr>
+        <tr>
+          <th>ujang 1</th>
+          <th><input type="text" style="width:50px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+        </tr>
+        <tr>
+          <th>ujang 1</th>
+          <th><input type="text" style="width:50px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+        </tr>
+        <tr>
+          <th>ujang 1</th>
+          <th><input type="text" style="width:50px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+        </tr>
+        <tr>
+          <th>ujang 1</th>
+          <th><input type="text" style="width:50px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+        </tr>
+        <tr>
+          <th>ujang 1</th>
+          <th><input type="text" style="width:50px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+        </tr>
+        <tr>
+          <th>ujang 1</th>
+          <th><input type="text" style="width:50px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+        </tr>
+        <tr>
+          <th>ujang 1</th>
+          <th><input type="text" style="width:50px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+        </tr>
+        <tr>
+          <th>ujang 1</th>
+          <th><input type="text" style="width:50px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+        </tr>
+        <tr>
+          <th>ujang 1</th>
+          <th><input type="text" style="width:50px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+          <th><input type="number" style="width:30px;"></th>
+        </tr>
+      </table>
 
     </div>
 
